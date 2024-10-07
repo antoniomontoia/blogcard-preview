@@ -42,8 +42,8 @@ Users should be able to:
 
 ### What I learned
 - Understood more about creating responsive layouts harnessing the power of CSS Flexbox.
--- Implementing responsive typography without media queries using calc() and viewport units vw and vh.
--- Ensuring image responsiveness using fit-content.
+  - Implementing responsive typography without media queries using calc() and viewport units vw and vh.
+  - Ensuring image responsiveness using fit-content.
 
 ```css
 
@@ -63,7 +63,7 @@ Users should be able to:
 
 
 - Implementing semantic HTML elements to improve accessibility.
--- Using alt attributes for images to provide context for screen readers.
+  - Using alt attributes for images to provide context for screen readers.
 
 ```html
 <footer class="author">
@@ -73,7 +73,7 @@ Users should be able to:
 ```
 
 - Learning to use browser developer tools to inspect elements, test styles, and debug layout issues.
---Testing the design across different devices and screen sizes to ensure a consistent user experience.
+  - Testing the design across different devices and screen sizes to ensure a consistent user experience.
 
 ### Continued development
 
