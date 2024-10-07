@@ -1,0 +1,101 @@
+html, body {
+    min-height: 100vh;
+}
+body {
+    background-color: #F4D04E;
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    min-width: 250px;
+    max-width: 340px;
+    height: fit-content;
+    flex-direction: column;
+    filter: drop-shadow(8px 8px 0px rgb(0, 0, 0, 1));
+    box-shadow: inset 0px 0px 0px 1px black;
+    margin: 12px;
+    margin-right: 24px;
+}
+
+.img1 {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    padding: 4px 12px 4px 12px;
+    background-color: #F4D04E;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 150%;
+    color: #111111;
+    max-width: fit-content;
+    margin-bottom: 12px;
+}
+
+time {
+    display: block;
+    color: #111111;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 12px;
+}
+
+h1 {
+    color: #111111;
+    font-weight: 800;
+    line-height: 150%;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    font-size: calc(20px + 0.22vw);
+}
+
+h1:hover {
+    color: #F4D04E;
+    cursor: pointer;
+}
+
+.paragraph {
+    color: #6B6B6B;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: calc(14px + 0.11vw);
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+
+}
+
+.img2 {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+
+.paragraph2 {
+    font-size: 14px;
+    font-weight: 800;
+    color: #111111;
+    line-height: 150%;
+}
