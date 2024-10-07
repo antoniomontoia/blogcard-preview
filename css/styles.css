@@ -14,8 +14,8 @@ body {
     border-radius: 20px;
     padding: 24px;
     display: flex;
-    min-width: 250px;
-    max-width: 340px;
+    min-width: 300px;
+    max-width: 380px;
     box-sizing: border-box;
     height: fit-content;
     flex-direction: column;
@@ -41,7 +41,7 @@ body {
     background-color: #F4D04E;
     border-radius: 4px;
     font-weight: 800;
-    font-size: 14px;
+    font-size: calc(12px + 0.14vw);
     line-height: 150%;
     color: #111111;
     max-width: fit-content;
@@ -52,7 +52,7 @@ time {
     display: block;
     color: #111111;
     font-weight: 500;
-    font-size: 14px;
+    font-size: calc(12px + 0.14vw);
     line-height: 150%;
     margin-bottom: 12px;
 }
